@@ -16,4 +16,5 @@ public class CompanyServiceImpl implements CompanyService {
         EmployeeVo employeeVo = restTemplate.getForObject(employeeUrl, EmployeeVo.class);
         return employeeVo;
     }
+
 }
